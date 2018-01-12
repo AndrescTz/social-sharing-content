@@ -1,0 +1,14 @@
+{
+  "name": "social-sharing-content",
+  "version": "1.0.0",
+  "description": "Share content on Facebook - Pinterest - Twitter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+/* npm install -g parcel-bundler */
