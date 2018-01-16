@@ -17,5 +17,7 @@ function initElements() {
     document.getElementById("btnPinterest").addEventListener("click", ptst.showPinterestBox, false);
     document.getElementById("btnTwitter").addEventListener("click", twt.showTwitterBox, false);
 
-    document.getElementById("share_fb").addEventListener("click", fb.share, false);
+    document.getElementById("share_fb").addEventListener("click", fb.share_using_url, false);
+    document.getElementById("share_ptst").addEventListener("click", ptst.share_using_url, false);
+    document.getElementById("share_twt").addEventListener("click", twt.share_using_url, false);
 }
